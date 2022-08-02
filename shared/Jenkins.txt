@@ -7,3 +7,5 @@ apt update -qq
 apt install -y default-jdk
 apt install -y jenkins
 systemctl start jenkins
+apt update -qq
+apt install python3.8
